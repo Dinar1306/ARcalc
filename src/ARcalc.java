@@ -24,7 +24,7 @@
 */
 
 import java.io.*;
-import java.math.*;
+
 
 
 
@@ -217,7 +217,7 @@ public class ARcalc {
     } // static boolean isArab (String chislo)
 
 
-    //метод определегия наличия римского числа
+    //метод определения наличия римского числа
     static boolean isRome (String chislo) {
         boolean otvet = false;
         Rdigits[] rdigits = Rdigits.values();
